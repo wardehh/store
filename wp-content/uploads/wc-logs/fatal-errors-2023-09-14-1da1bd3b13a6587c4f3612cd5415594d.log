@@ -1,0 +1,68 @@
+2023-09-14T00:21:42+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/wptbox/wp-admin/includes/class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 /var/www/wptbox/wp-admin/includes/class-bulk-upgrader-skin.php(156): sprintf()
+#1 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(3646): Bulk_Upgrader_Skin->after()
+#2 /var/www/wptbox/wp-admin/includes/class-wp-upgrader.php(920): TGMPA_Bulk_Installer_Skin->after()
+#3 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(3266): WP_Upgrader->run()
+#4 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(3379): TGMPA_Bulk_Installer->run()
+#5 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(2985): TGMPA_Bulk_Installer->bulk_install()
+#6 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(751): TGMPA_List_Table->process_bulk_actions()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(310): TGM_Plugin_Activation->install_plugins_page()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-admin/admin.php(259): do_action()
+#11 /var/www/wptbox/wp-admin/plugins.php(10): require_once('...')
+#12 {main}
+  thrown in /var/www/wptbox/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+
+2023-09-14T00:21:50+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/wptbox/wp-admin/includes/class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 /var/www/wptbox/wp-admin/includes/class-bulk-upgrader-skin.php(156): sprintf()
+#1 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(3646): Bulk_Upgrader_Skin->after()
+#2 /var/www/wptbox/wp-admin/includes/class-wp-upgrader.php(920): TGMPA_Bulk_Installer_Skin->after()
+#3 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(3266): WP_Upgrader->run()
+#4 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(3379): TGMPA_Bulk_Installer->run()
+#5 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(2985): TGMPA_Bulk_Installer->bulk_install()
+#6 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(751): TGMPA_List_Table->process_bulk_actions()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(310): TGM_Plugin_Activation->install_plugins_page()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-admin/admin.php(259): do_action()
+#11 /var/www/wptbox/wp-admin/plugins.php(10): require_once('...')
+#12 {main}
+  thrown in /var/www/wptbox/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+
+2023-09-14T00:22:01+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/wptbox/wp-admin/includes/class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 /var/www/wptbox/wp-admin/includes/class-bulk-upgrader-skin.php(156): sprintf()
+#1 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(3646): Bulk_Upgrader_Skin->after()
+#2 /var/www/wptbox/wp-admin/includes/class-wp-upgrader.php(920): TGMPA_Bulk_Installer_Skin->after()
+#3 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(3266): WP_Upgrader->run()
+#4 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(3379): TGMPA_Bulk_Installer->run()
+#5 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(2985): TGMPA_Bulk_Installer->bulk_install()
+#6 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(751): TGMPA_List_Table->process_bulk_actions()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(310): TGM_Plugin_Activation->install_plugins_page()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-admin/admin.php(259): do_action()
+#11 /var/www/wptbox/wp-admin/plugins.php(10): require_once('...')
+#12 {main}
+  thrown in /var/www/wptbox/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+
+2023-09-14T00:22:10+00:00 CRITICAL Uncaught ArgumentCountError: 3 arguments are required, 2 given in /var/www/wptbox/wp-admin/includes/class-bulk-upgrader-skin.php:156
+Stack trace:
+#0 /var/www/wptbox/wp-admin/includes/class-bulk-upgrader-skin.php(156): sprintf()
+#1 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(3646): Bulk_Upgrader_Skin->after()
+#2 /var/www/wptbox/wp-admin/includes/class-wp-upgrader.php(920): TGMPA_Bulk_Installer_Skin->after()
+#3 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(3266): WP_Upgrader->run()
+#4 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(3379): TGMPA_Bulk_Installer->run()
+#5 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(2985): TGMPA_Bulk_Installer->bulk_install()
+#6 /var/www/wptbox/wp-content/plugins/woostify-sites-library/includes/class-tgm-plugin-activation.php(751): TGMPA_List_Table->process_bulk_actions()
+#7 /var/www/wptbox/wp-includes/class-wp-hook.php(310): TGM_Plugin_Activation->install_plugins_page()
+#8 /var/www/wptbox/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters()
+#9 /var/www/wptbox/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /var/www/wptbox/wp-admin/admin.php(259): do_action()
+#11 /var/www/wptbox/wp-admin/plugins.php(10): require_once('...')
+#12 {main}
+  thrown in /var/www/wptbox/wp-admin/includes/class-bulk-upgrader-skin.php on line 156
+
